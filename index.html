@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,900&display=swap" rel="stylesheet">
+    <title>ExactWeather</title>
+</head>
+<body>
+    <div class="screenpage">
+        <nav>
+            <div class="nav-section">
+
+                <div class="logo column--6">
+                    <h4>LOGO</h4>
+                </div>
+
+                <div class="navigation column--4">
+                    <div><a href="#">About</a></div>
+                    <div><a href="#">Weather</a></div>
+                    <div><a href="#">API</a></div>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="main column">
+            <div class="input-section">
+                <h4 class="gold">Search a city !</h4>
+                <div class="inputs">
+                        <input id="theInput1" class="query" type="text" placeholder="Ex:Bucharest">
+                    <button id="theButton" class="button">Send</button>
+                </div>
+            </div>
+    
+            <div class="main-section">
+    
+                <div class="box">
+                    <div class="w-details">
+                        <h6 class="timezone">Timezone</h6>
+                        <div class="isFahrenheit">
+                            <h6>Fahrenheit Degrees</h6>
+                            <input class="fahrenheitToggle" type=checkbox>
+                        </div>
+                        <p class="tempC">Temperature </p>
+                        <p class="tempF displayNone">Temperature </p>
+                        <p class="humidity">Humidity </p>
+                    </div>
+                    <div class="w-icon">
+                        <h6 class="w-description">Description</h6>
+                        <img class="w-icon" alt="">
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        
+
+
+    </div>
+
+    <script type="text/javascript" src=".\js\index.js"></script>
+</body>
+</html>
