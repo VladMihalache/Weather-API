@@ -1,5 +1,3 @@
-
-
 const input1= document.getElementById("theInput1");
 const button= document.querySelector(".button");
 const timez= document.querySelector(".timezone");
